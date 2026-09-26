@@ -1,0 +1,177 @@
+{
+  "replacement_rules": [
+    {
+      "type": "group",
+      "name": "Images/Textures",
+      "expanded": false,
+      "children": [
+        {
+          "name": "nerf revolver icon",
+          "replace_ids": [
+            16647917031
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 6930017845
+        },
+        {
+          "name": "nerf pistol icon",
+          "replace_ids": [
+            16647913398
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 6930018123
+        },
+        {
+          "name": "nerf revolver texture (CamoRadar Texture)",
+          "replace_ids": [
+            16657441998
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 6907192273
+        },
+        {
+          "name": "nerf pistol texture (WoodenToy Texture)",
+          "replace_ids": [
+            16657437496
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 6907190490
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Sounds",
+      "expanded": false,
+      "children": [
+        {
+          "name": "nerf revolver sound",
+          "replace_ids": [
+            16663714645
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 6924804083
+        },
+        {
+          "name": "nerf pistol sound",
+          "replace_ids": [
+            2140554034,
+            16663716300
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 6924804083
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Replaced Meshes",
+      "expanded": false,
+      "children": [
+        {
+          "name": "swap nerf revolver mesh",
+          "replace_ids": [
+            16629453848
+          ],
+          "mode": "cdn",
+          "enabled": true,
+          "cdn_url": "https://raw.githubusercontent.com/youmeeeeeeew/Jailbreak-Nerf-Guns-Reskin/refs/heads/main/Assets/nerfgogh.obj"
+        },
+        {
+          "name": "swap nerf pistol mesh",
+          "replace_ids": [
+            16629443556
+          ],
+          "mode": "cdn",
+          "enabled": true,
+          "cdn_url": "https://raw.githubusercontent.com/youmeeeeeeew/Jailbreak-Nerf-Guns-Reskin/refs/heads/main/Assets/nerfpistol.obj"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Removed Meshes",
+      "expanded": false,
+      "children": [
+        {
+          "name": "remove silencer",
+          "replace_ids": [
+            16629443803
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "Profile 11",
+          "replace_ids": [
+            16629443902
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "Profile 12",
+          "replace_ids": [
+            16629443126
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "Profile 14",
+          "replace_ids": [
+            16629443705
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "Profile 15",
+          "replace_ids": [
+            16629444873
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "Profile 4",
+          "replace_ids": [
+            16629453966
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "Profile 5",
+          "replace_ids": [
+            16628967220
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "Profile 6",
+          "replace_ids": [
+            16629453726
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "h",
+          "replace_ids": [
+            16629443343
+          ],
+          "mode": "id",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}
