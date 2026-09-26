@@ -97,79 +97,93 @@
     {
       "type": "group",
       "name": "Removed Meshes",
-      "expanded": false,
+      "expanded": true,
       "children": [
         {
-          "name": "remove silencer",
-          "replace_ids": [
-            16629443803
-          ],
-          "mode": "id",
-          "enabled": true
+          "type": "group",
+          "name": "Pistol",
+          "expanded": false,
+          "children": [
+            {
+              "name": "remove silencer",
+              "replace_ids": [
+                16629443803
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "Profile 11",
+              "replace_ids": [
+                16629443902
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "Profile 12",
+              "replace_ids": [
+                16629443126
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "Profile 14",
+              "replace_ids": [
+                16629443705
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "Profile 15",
+              "replace_ids": [
+                16629444873
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "h",
+              "replace_ids": [
+                16629443343
+              ],
+              "mode": "id",
+              "enabled": true
+            }
+          ]
         },
         {
-          "name": "Profile 11",
-          "replace_ids": [
-            16629443902
-          ],
-          "mode": "id",
-          "enabled": true
-        },
-        {
-          "name": "Profile 12",
-          "replace_ids": [
-            16629443126
-          ],
-          "mode": "id",
-          "enabled": true
-        },
-        {
-          "name": "Profile 14",
-          "replace_ids": [
-            16629443705
-          ],
-          "mode": "id",
-          "enabled": true
-        },
-        {
-          "name": "Profile 15",
-          "replace_ids": [
-            16629444873
-          ],
-          "mode": "id",
-          "enabled": true
-        },
-        {
-          "name": "Profile 4",
-          "replace_ids": [
-            16629453966
-          ],
-          "mode": "id",
-          "enabled": true
-        },
-        {
-          "name": "Profile 5",
-          "replace_ids": [
-            16628967220
-          ],
-          "mode": "id",
-          "enabled": true
-        },
-        {
-          "name": "Profile 6",
-          "replace_ids": [
-            16629453726
-          ],
-          "mode": "id",
-          "enabled": true
-        },
-        {
-          "name": "h",
-          "replace_ids": [
-            16629443343
-          ],
-          "mode": "id",
-          "enabled": true
+          "type": "group",
+          "name": "Revolver",
+          "expanded": false,
+          "children": [
+            {
+              "name": "Profile 4",
+              "replace_ids": [
+                16629453966
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "Profile 5",
+              "replace_ids": [
+                16628967220
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "Profile 6",
+              "replace_ids": [
+                16629453726
+              ],
+              "mode": "id",
+              "enabled": true
+            }
+          ]
         }
       ]
     }
